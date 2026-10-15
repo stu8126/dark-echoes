@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useState } from "react";
+import { episodeList } from "./data";
 
 export default function App() {
   const [episodes] = useState(episodeList);
